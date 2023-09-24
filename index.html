@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fiverrrr</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiverr</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <style>
-        body{
+     <style>
+         body{
             background-color: brown;
         }
         .navbar{
-            background-color: brown;
+            /* background-color: brown; */
             color: white;
             display: flex;
         }
@@ -21,7 +30,7 @@
             font-size: 34px;
             margin-left: 34px;
             color: white;
-            
+
         }
         .nav-item dropdown{
             right: 30px;
@@ -30,7 +39,7 @@
         }
 
         .h5{
-            /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+          font-family: Verdana, Geneva, Tahoma, sans-serif; 
             font-size: 20px;
         }
         .home{
@@ -53,21 +62,35 @@
             height: 50px;
             padding: 10px;
         }
-        h5{
+        h6{
            font-size: 20px;
+           margin-left: 40px;
+           color: white;
         }
-        .image img{
-            right: 40px;
+        .boxes{
+            margin-left: 40px;
+            border-radius: 20px;
+            background-color: brown;
+            color: white;
+            border-color: wheat;
+        }
+        .images{
+            margin-left: 40px;
             height: 500px;
             width: 500px;
         }
-        
+        .right img{
+            top: 40px;
+            height: 500px;
+            width: 500px;
+}
+
     </style>
     <header>
         <nav class="navbar">
                 <div class="container-fluid">
                   <div class="navbar-brand" href="#"><b>fiverrr.</b>
-                   </div>
+                    </div>
                        <div class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Business solution
@@ -100,12 +123,25 @@
         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
       </svg>
     </button>
-<div class="content">
-    <h5>popular</h5>
+<div>
+    <h6>popular:</h6>
+    <button class="boxes">Website design</button>
+    <button class="boxes">Wordpress</button>
+    <button class="boxes">Logo Design</button>
+    <button class="boxes">NFT art</button>
 </div>
-<div class="image">
-
- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuKEr2QKdw9TMbIk96SXbH3LtGzou_Avi__g&usqp=CAU">
 </div>
+<div class="images">
+<img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/meta.12b5e5c.png" alt="facebook" data-uw-rm-alt-original="facebook" data-uw-rm-alt="true">
+<img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/google.61e78c8.png" alt="Google" data-uw-rm-alt-original="Google" data-uw-rm-alt="true">
+<img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/netflix.96c5e3f.png" alt="NETFLIX" data-uw-rm-alt-original="NETFLIX" data-uw-rm-alt="true">
+<img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/pandg.0f4cfc2.png" alt="P&amp;G" data-uw-rm-alt-original="P&amp;G" data-uw-rm-alt="true">
+<img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/paypal.305e264.png" alt="PayPal" data-uw-rm-alt-original="PayPal" data-uw-rm-alt="true">
+</div>
+<div class="right">
+    <img src="../fiverrr\istockphoto-1420486889-1024x1024.jpg">
+</div>
+</body>
+</html>
 </body>
 </html>
